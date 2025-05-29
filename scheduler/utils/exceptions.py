@@ -1,0 +1,3 @@
+class RetryError(Exception):
+    """Exception raised when a task should be retried."""
+    ...
